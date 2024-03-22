@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/DownloadFunctionality/download_Screen/download.dart';
+import 'package:my_portfolio/Global/constant/constant.dart';
 import 'package:my_portfolio/Views/SplashScreen/view/splash_screen.dart';
 
 void main() async{
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My Portfolio',
+     title: Constants.appName,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,

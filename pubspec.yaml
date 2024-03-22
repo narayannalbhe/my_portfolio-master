@@ -41,6 +41,7 @@ dependencies:
   http: ^0.13.6
   gallery_saver_plus: ^3.0.1
   video_player: ^2.7.2
+  url_launcher: ^6.1.11
 #  media_store_plus: ^0.0.7
 #  android_intent_plus: ^4.0.3
 #  flutter_downloader:

@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
 
             HomeComponent(),
             const Divider(thickness: 2,color: Colors.purple,),
-            AboutComponent(),
+            // AboutComponent(),
             SkillComponent(),
             EducationComponent(),
             WorkComponent(),
