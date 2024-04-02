@@ -49,17 +49,21 @@ class _HomePageState extends State<HomePage> {
                            fontWeight: FontWeight.bold,
                          ),
                        ),
-                       Row(
-                         children: [
-                           _buildNavItem('Home', Routes.home),
-                           _buildNavItem('About', Routes.about),
-                           _buildNavItem('Skills', Routes.skills),
-                           _buildNavItem('Education', Routes.education),
-                           _buildNavItem('Work', Routes.work),
-                           _buildNavItem('Experience', Routes.experience),
-                           _buildNavItem('Contact us', Routes.contact),
-
-                         ],
+                       Expanded(
+                         child: SingleChildScrollView(
+                           scrollDirection: Axis.horizontal,
+                           child: Row(
+                             children: [
+                               _buildNavItem('Home', Routes.home),
+                               _buildNavItem('About', Routes.about),
+                               _buildNavItem('Skills', Routes.skills),
+                               _buildNavItem('Education', Routes.education),
+                               _buildNavItem('Work', Routes.work),
+                               _buildNavItem('Experience', Routes.experience),
+                               _buildNavItem('Contact us', Routes.contact),
+                             ],
+                           ),
+                         ),
                        ),
                      ],
                    ),
