@@ -2,11 +2,28 @@
 
 A new Flutter project.
 
+
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project serves as a starting point for building a Flutter web application to showcase your skills, projects, and experiences.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
+
+- Make sure you have Flutter installed. If not, you can follow the [Flutter installation guide](https://flutter.dev/docs/get-started/install).
+
+## Technologies Used
+
+- Flutter
+- Dart
+- Firebase (optional for backend services)
+
+## Features
+
+- Showcase your projects with images, descriptions, and links.
+- Highlight your skills and experiences.
+- Contact information and social media links.
+- Responsive design for various devices.
+  
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
